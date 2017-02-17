@@ -16,3 +16,6 @@ services:
       MYSQL_ROOT_PASSWORD: example
     volumes:
       - ./mariadb/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+
+# docker-compose up -d
+# access http://localhost:8080/
